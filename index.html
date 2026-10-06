@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+<script src="01.js"></script>
+
+
+</head>
+<body>
+       <!-- CABEÇALHO -->
+    <header>
+        <h1>Meu Portfólio</h1>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+
+
+<!-- INÍCIO -->
+<section id="inicio">
+
+    <div class="apresentacao">
+
+        <!-- FOTO -->
+        <img 
+            class="foto-perfil"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScgloeqSsozmxG05Xj3b_mybm5J5beE_O_GIaykabN5w&s"
+            alt="Minha foto"
+        >
+
+        <!-- NOME -->
+        <div class="texto-apresentacao">
+
+            <h2>Olá, eu sou Enzo Hickmann.</h2>
+
+            <p>
+                Sou estudante de TI, sei criar sites com o uso da
+                programação.
+            </p>
+           
+    <a href="#projetos">Ver meus projetos</a>
+        </div>
+
+    </div>
+
+
+</section>
+
+
+
+    <!-- SOBRE MIM -->
+    <section id="sobre">
+
+        <h2>Sobre Mim</h2>
+
+        <p>
+            Meu nome é Enzo Hickmann. Estou cursando técnico de informatica,
+        no tempo livre gosto de tocar guitarra.
+        </p>
+
+        <p>
+            Meu objetivo é melhorar minhas habilidades tanto na guitarra,quanto na área da programação, para futuramente arranjar um bom emprego.
+        </p>
+           
+
+    </section>
+
+   
+  
+<!-- PROJETOS -->
+<section id="projetos">
+
+    <h2>Meus Projetos</h2>
+
+    <div>
+        <h3>Freelancer</h3>
+
+        <p>
+            Vender sites para empresas pequenas/médias
+        </p>
+
+        <a href="#" onclick="abrirDemo('freelancer'); return false;">
+            Demonstração
+        </a>
+    </div>
+
+
+    <div>
+        <h3>Impulso MKT</h3>
+
+        <p>
+            Site de desenvolvimento trabalhador, onde mais pessoas
+            conhecem do seu trabalho por um pequeno preço.
+        </p>
+
+        <a href="#" onclick="abrirDemo('mkt'); return false;">
+            Demonstração
+        </a>
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     JANELA DE DEMONSTRAÇÃO
+     ========================================= -->
+
+<div id="modal" class="modal">
+
+    <div class="modal-conteudo">
+
+        <!-- BOTÃO FECHAR -->
+        <button class="fechar" onclick="fecharDemo()">
+            &times;
+        </button>
+
+
+        <!-- IMAGEM -->
+        <img id="imagemDemo" src="" alt="Imagem do projeto">
+
+
+        <!-- TÍTULO -->
+        <h2 id="tituloDemo"></h2>
+
+
+        <!-- DESCRIÇÃO -->
+        <p id="textoDemo"></p>
+
+
+        <!-- BOTÃO -->
+        <button class="botao-fechar" onclick="fecharDemo()">
+            Fechar
+        </button>
+
+    </div>
+
+</div>
+
+
+    <!-- CONTATO -->
+    <section id="contato">
+
+        <h2>Entre em Contato</h2>
+
+        <p>Email: enzohickmann@gmail.com </p>
+
+        <p>WhatsApp: (55) 49991525806</p>
+
+        <p>Instagram: @enzo_hickmann</p>
+
+    </section>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <p>
+            © 2026  - Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+
+</body>
+</html>
